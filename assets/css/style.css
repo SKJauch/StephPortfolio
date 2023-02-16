@@ -53,6 +53,10 @@ h3 {
     text-decoration: underline;
 }
 
+.infoLink {
+    border-style: dashed;
+}
+
 
 footer {
     margin-top: 25px;
