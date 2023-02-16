@@ -1,7 +1,0 @@
-div photo {
-    background-color: darkred;
-}
-
-#div photo {
-    overflow-clip-margin: content-box;
-}
