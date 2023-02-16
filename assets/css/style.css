@@ -25,11 +25,10 @@ li {
 }
 
 .navLink {
-    flex-direction:column-reverse ;
     color: white;
     padding: 10px 15px;
     text-align: left;
-    font-size: larger;
+    font-size: 36px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
@@ -59,7 +58,12 @@ h3 {
 }
 
 .infoLink {
+    color: white;
+    padding: 10px 15px;
     
+    text-align: center;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 footer {
