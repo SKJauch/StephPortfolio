@@ -25,7 +25,7 @@ li {
 }
 
 li a {
-    display: block;
+    flex-direction: row-reverse;
     color: white;
     padding: 10px 15px;
     text-align: right;
@@ -66,4 +66,15 @@ footer {
     margin-left: auto;
     text-align: center;
     font-size: larger;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
 }
