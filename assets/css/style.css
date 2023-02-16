@@ -31,6 +31,7 @@ li a {
 }
 
 section {
+    border-style: solid;
     display:inline-flexbox;
     color: brown;
     padding: 10px 25px;
@@ -48,12 +49,19 @@ h3 {
     text-decoration: underline;
 }
 
-conLink {
-    text-align: left;
-    display: block;
-    padding: 15px 15px;
-}
 
 footer {
     padding: 20px;
+    margin: 20px;
+    
+}
+
+contact {
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    text-align: left;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 }
