@@ -1,4 +1,36 @@
 body {
-    background-color: aqua;
+    background-color: rgb(224, 100, 100);
 }
 
+header {
+    background-color: maroon;
+    height: 182px;
+    padding: 20px 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: none;
+    padding: 0;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    text-align: right;
+    font-size: larger;
+    
+}
+
+section {
+    display: inline;
+    color: brown;
+    padding: 10px 15 px;
+    text-align: left;
+    font-size: 46px;
+}
