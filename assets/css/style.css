@@ -4,15 +4,17 @@ body {
 
 header {
     background-color: maroon;
+    border-style: solid;
     height: 182px;
     padding: 20px 20px;
 }
 
-ul {
+ul, ol {
     list-style-type: none;
     margin: none;
     padding: 0;
 }
+
 
 li {
     float: right;
@@ -29,9 +31,9 @@ li a {
 }
 
 section {
-    display: inline;
+    display:inline-flexbox;
     color: brown;
-    padding: 10px 15 px;
+    padding: 10px 25px;
     text-align: left;
     font-size: 46px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -52,6 +54,6 @@ conLink {
     padding: 15px 15px;
 }
 
-.footer {
+footer {
     padding: 20px;
 }
