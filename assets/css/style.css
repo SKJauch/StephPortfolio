@@ -88,3 +88,17 @@ footer {
 	box-shadow: 0 3px 6px rgba(0,0,0,0.9)
     
 }
+.description {
+    font-size: 25px;
+}
+
+.link {
+    font-size: 35px;
+    ;
+}
+
+.projectThumb {
+    width: 400px;
+    height: 200px;
+    border: solid black 4px;
+}
