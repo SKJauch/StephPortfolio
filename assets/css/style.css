@@ -6,7 +6,8 @@ header {
     background-color: maroon;
     border-style: solid;
     height: 182px;
-    padding: 20px 20px;
+    padding: 20px;
+    margin: 20px;
 }
 
 p {
@@ -21,7 +22,7 @@ ul, ol {
 }
 
 
-.navLink {
+a.navLink {
     float: left;
     color: white;
     padding: 10px 15px;
@@ -35,7 +36,7 @@ ul, ol {
 section {
     display:inline-flexbox;
     color: brown;
-    padding: 75px 5px;
+    padding: 30px 5px;
     text-align: left;
     font-size: 46px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -92,9 +93,11 @@ footer {
     font-size: 25px;
 }
 
-.link {
+a.link {
     font-size: 35px;
-    ;
+    color: rgb(73, 9, 9);
+    font-display: color rgb(74, 11, 11);
+
 }
 
 .projectThumb {
@@ -103,4 +106,9 @@ footer {
     border: solid black 4px;
    
 }
-.pr
+ 
+a.ghlink {
+    font-size: 25px;
+    color: rgb(143, 49, 49);
+    font-display: color rgb(74, 11, 11);
+}
